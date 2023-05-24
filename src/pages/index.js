@@ -1,7 +1,5 @@
 import MyDropdown from "@/components/Menu"
 import Head from 'next/head';
-import { useState, useEffect } from "react";
-import { Switch } from "@headlessui/react";
 
 export default function Home() {
 
