@@ -1,5 +1,5 @@
 import MyDropdown from "@/components/Menu"
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function Home() {
 
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <p className="mt-5 text-start leading-8 text-gray-600 text-justify">
-                back-end software developer in search of <strong className="text-black">improvement</strong> and I'm <strong className="text-black">loving</strong> what I do.
+                back-end software developer in search of <strong className="text-black">improvement</strong> and I&apos;m <strong className="text-black">loving</strong> what I do.
               </p>
               <p className="text-start leading-8 text-gray-600">
                 trying to make a difference with code, education and empathy,

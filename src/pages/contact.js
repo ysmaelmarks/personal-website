@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Image from "next/image"
 import LinkIN from "../../public/images/linkedin3.svg"
 import Email from "../../public/images/email2.svg"
 import NavBar from "@/components/Navbar";
-import Head from 'next/head';
+import Head from "next/head";
 
 
 export default function Contact() {
