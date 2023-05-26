@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function MyDropdown() {
   return (
-    <div className="absolute inset-x-0 top-5 z-0 text-center">
+    <div className="absolute inset-x-0 top-0 z-0 text-center">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-opacity-20 px-4 py-2 text-sm font-medium hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
@@ -23,7 +23,7 @@ export default function MyDropdown() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="mt-10 w-96 origin-top-right divide-y divide-gray-100 rounded-md  shadow-lg ring-1 ring-black ring-opacity-10 focus:outline-none">
+          <Menu.Items className="mt-2 w-96 origin-top-right divide-y divide-gray-100 rounded-md  shadow-lg ring-1 ring-black ring-opacity-10 focus:outline-none">
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
