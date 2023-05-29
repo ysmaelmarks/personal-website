@@ -1,5 +1,3 @@
-import Image from "next/image"
-import Photo2 from "../../public/images/photo2.jpg"
 import NavBar from "@/components/Navbar";
 import Head from 'next/head';
  
@@ -19,8 +17,6 @@ export default function About() {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               About me
             </h1>
-            <Image src={Photo2} alt='github' className="m-auto w-1/6 rounded-full mt-6" aria-hidden="true"
-            />
             <p className="mt-3 text-lg leading-8 text-gray-700">
             Hello, I am Ysmael Marques.
             </p>

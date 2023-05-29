@@ -30,3 +30,15 @@ body {
   margin-right: 200px;
 }
 
+@media (max-width: 700px)
+{
+  .direita
+   {
+    margin-left: 0px;
+   }
+
+   .esquerda{
+    margin-right: 0px;
+   }
+}
+
